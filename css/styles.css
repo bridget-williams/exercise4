@@ -1,0 +1,43 @@
+body{
+    background: #efefef;
+}
+
+#offscreen-nav ul{
+    list-style-type: none;
+    font-size: 2em;
+    padding:5%;
+}
+
+#offscreen-nav{
+    postiion:absolute;
+    top:0;
+    left:0;
+    width:0;
+    overflow:hidden;
+    transiton:.2s;
+}
+
+
+#closebtn{
+    float:right;
+}
+
+#moreinfo{
+    color:red;
+    cursor: pointer;
+}
+
+#tooltip{
+    display:none;
+    width:25%;
+    background:#123;
+    border: 1px solid black;
+    color:white;
+    box-shadow: 2px 2px 2px gray;
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+
+
